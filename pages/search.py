@@ -1,9 +1,10 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-URL = 'https://duckduckgo.com/'
-
 class DuckDuckGoSearchPage:
+
+    # URL
+    URL = 'https://duckduckgo.com'
 
     SEARCH_INPUT = (By.CLASS_NAME, 'searchbox_input__bEGm3')
 
